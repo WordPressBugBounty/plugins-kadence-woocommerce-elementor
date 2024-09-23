@@ -1,0 +1,1 @@
+# plugins-kadence-woocommerce-elementor

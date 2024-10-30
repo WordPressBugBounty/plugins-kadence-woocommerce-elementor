@@ -4,8 +4,8 @@ Tags: elementor, woocommerce
 Donate link: https://www.kadencewp.com/about-us/
 Requires at least: 4.4
 Requires PHP: 5.4
-Tested up to: 6.5
-Stable tag: 1.0.9
+Tested up to: 6.6
+Stable tag: 1.0.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,6 +47,9 @@ Install the plugin into the `/wp-content/plugins/` folder, and activate it.
 2. Customizing an with more unique layout
 
 == Changelog ==
+
+= 1.0.10 =
+* Fix: Issue with Elementor Pro 3.25 breaking rendering function.
 
 = 1.0.9 =
 * Update: Tested version

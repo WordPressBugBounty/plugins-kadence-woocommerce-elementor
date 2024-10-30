@@ -176,17 +176,27 @@ class Kadence_Single_Products_Elementor {
 
 				if ( class_exists( '\Elementor\Plugin' ) ) {
 					$elementor = \Elementor\Plugin::instance();
-					$elementor->frontend->enqueue_styles();
+					if ( $elementor && isset( $elementor->frontend ) ) {
+						if ( method_exists( $elementor->frontend, 'enqueue_scripts' ) ) {
+							$elementor->frontend->enqueue_scripts();
+						}
+					}
 				}
 
 				if ( class_exists( '\ElementorPro\Plugin' ) ) {
 					$elementor_pro = \ElementorPro\Plugin::instance();
-					$elementor_pro->enqueue_styles();
+					if ( $elementor_pro && method_exists( $elementor_pro, 'enqueue_styles' ) ) {
+						$elementor_pro->enqueue_styles();
+					}
 				}
 
 				if ( Kadence_Single_Products_Elementor::kadence_woo_ele_product_template_enabled() ) {
-					$css_file = new \Elementor\Core\Files\CSS\Post( Kadence_Single_Products_Elementor::get_kadence_woo_ele_product_builder_id() );
-					$css_file->enqueue();
+					if ( class_exists( '\Elementor\Core\Files\CSS\Post' ) ) {
+						$css_file = new \Elementor\Core\Files\CSS\Post( Kadence_Single_Products_Elementor::get_kadence_woo_ele_product_builder_id() );
+						if ( $css_file && method_exists( $css_file, 'enqueue' ) ) {
+							$css_file->enqueue();
+						}
+					}
 				}
 			}
 		}

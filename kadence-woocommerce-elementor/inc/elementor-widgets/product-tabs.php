@@ -34,7 +34,7 @@ class Product_Tabs_Element extends \Elementor\Widget_Base {
 		return array( 'woocommerce-elements' );
 	}
 
-	protected function _register_controls() {
+	protected function register_controls() {
 		$this->start_controls_section(
 			'section_content',
 			array(
@@ -99,6 +99,6 @@ class Product_Tabs_Element extends \Elementor\Widget_Base {
 	    }
 	}
 
-	protected function _content_template() {}
+	protected function content_template() {}
 }
 \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new Product_Tabs_Element());

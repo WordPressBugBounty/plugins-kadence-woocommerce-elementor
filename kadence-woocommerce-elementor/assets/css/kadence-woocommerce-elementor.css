@@ -6,7 +6,7 @@
 	opacity: 1 !important;
 }
 /* Allow align to work better for price */
-.kadence-woo-template-builder .elementor-widget-container .entry-summary .price {
+.kadence-woo-template-builder .entry-summary .price {
 	display: inline-block;
 }
 .kadence-ele-title-align-left .products > h2, .kadence-ele-title-align-left .products > h3 {

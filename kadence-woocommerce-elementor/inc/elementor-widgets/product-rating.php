@@ -2,7 +2,7 @@
 /**
  * Build Elementor Element
  *
- * @package Kadence Woocommerce Elementor.
+ * @package Kadence for WooCommerce and Elementor.
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

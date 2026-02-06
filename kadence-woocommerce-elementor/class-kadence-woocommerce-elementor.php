@@ -2,7 +2,7 @@
 /**
  * Main Elementor class.
  *
- * @package Kadence WooCommerce Elementor.
+ * @package Kadence for WooCommerce and Elementor.
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Main Kadence Woocommerce Elementor Class.
+ * Main Kadence for WooCommerce and Elementor Class.
  *
  * @category class
  */
@@ -103,7 +103,7 @@ class Kadence_Woocommerce_Elementor {
 		// Admin functions.
 		require_once KT_WOOELE_PATH . 'admin/class-kadence-woocommerce-elementor-admin.php';
 
-		// Kadence Woo Elementor Function.
+		// Kadence for WooCommerce and Elementor function.
 		require_once KT_WOOELE_PATH . 'inc/functions.php';
 
 		// Single Products Elementor.
@@ -122,7 +122,7 @@ class Kadence_Woocommerce_Elementor {
 	 */
 	public function admin_notice_need_woocommerce() {
 		echo '<div class="notice notice-error is-dismissible">';
-		echo '<p>' . esc_html__( 'Kadence Woocommerce Elementor requires WooCommerce to be active to work', 'kadence-woocommerce-elementor' ) . '</p>';
+		echo '<p>' . esc_html__( 'Kadence for WooCommerce and Elementor requires WooCommerce to be active to work', 'kadence-woocommerce-elementor' ) . '</p>';
 		echo '</div>';
 	}
 	/**
@@ -130,7 +130,7 @@ class Kadence_Woocommerce_Elementor {
 	 */
 	public function admin_notice_need_elementor() {
 		echo '<div class="notice notice-error is-dismissible">';
-		echo '<p>' . esc_html__( 'Kadence Woocommerce Elementor requires Elementor to be active to work', 'kadence-woocommerce-elementor' ) . '</p>';
+		echo '<p>' . esc_html__( 'Kadence for WooCommerce and Elementor requires Elementor to be active to work', 'kadence-woocommerce-elementor' ) . '</p>';
 		echo '</div>';
 	}
 	/**

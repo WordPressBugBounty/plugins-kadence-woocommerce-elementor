@@ -2,7 +2,7 @@
 /**
  * Class Kadence_Single_Products_Elementor
  *
- * @package Kadence Woocommerce Elementor
+ * @package Kadence for WooCommerce and Elementor
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

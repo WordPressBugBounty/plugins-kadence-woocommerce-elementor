@@ -2,7 +2,7 @@
 /**
  * Plugin check class.
  *
- * @package Kadence WooCommerce Elementor.
+ * @package Kadence for WooCommerce and Elementor.
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

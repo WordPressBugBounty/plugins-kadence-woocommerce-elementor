@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Kadence Woocommerce Email Designer\n"
+"Project-Id-Version: Kadence for WooCommerce and Elementor\n"
 "POT-Creation-Date: 2018-06-15 13:25-0600\n"
 "PO-Revision-Date: 2015-05-08 13:15-0700\n"
 "Last-Translator: \n"
@@ -32,7 +32,7 @@ msgid "Choose a default single template"
 msgstr ""
 
 #: admin/class-kadence-woocommerce-elementor-admin.php:100
-msgid "Kadence WooCommerce Elementor Pro"
+msgid "Kadence for WooCommerce and Elementor Pro"
 msgstr ""
 
 #: admin/class-kadence-woocommerce-elementor-admin.php:102
@@ -483,9 +483,9 @@ msgid "Placeholder for Upsell Products"
 msgstr ""
 
 #: kadence-woocommerce-elementor.php:106
-msgid "Kadence Woocommerce Elementor requires WooCommerce to be active to work"
+msgid "Kadence for WooCommerce and Elementor requires WooCommerce to be active to work"
 msgstr ""
 
 #: kadence-woocommerce-elementor.php:112
-msgid "Kadence Woocommerce Elementor requires Elementor to be active to work"
+msgid "Kadence for WooCommerce and Elementor requires Elementor to be active to work"
 msgstr ""

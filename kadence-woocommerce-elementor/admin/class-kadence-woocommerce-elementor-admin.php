@@ -102,7 +102,7 @@ class Kadence_Woocommerce_Elementor_Admin {
     padding: 20px;">
 			<h3 style="margin: 0;
     margin-bottom: 20px;">
-				<?php _e('Kadence WooCommerce Elementor Pro', 'kadence-woocommerce-elementor'); ?>
+				<?php _e('Kadence for WooCommerce and Elementor Pro', 'kadence-woocommerce-elementor'); ?>
 			</h3>
 				<p class="description" style="margin-bottom:15px;"><?php echo __('With Pro you can use elementor to control your shop and archive pages, as well as the checkout page.', 'kadence-woocommerce-elementor');?></p>
 				<a href="https://www.kadencethemes.com/product/kadence-woocommerce-elementor/" style="
